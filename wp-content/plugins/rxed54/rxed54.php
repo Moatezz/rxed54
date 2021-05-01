@@ -51,7 +51,7 @@ function rxed54_add_toplevel_menu()
         'rxed54',
         'rxed54_display_settings_page',
         'dashicons-admin-generic',
-        null
+        30
     );
 }
 add_action('admin_menu', 'rxed54_add_toplevel_menu');
