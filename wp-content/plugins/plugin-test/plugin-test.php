@@ -12,3 +12,7 @@
 * Text Domain: plugin-test
 * Domain Path: /languages
 **/
+
+if (! defined('ABSPATH')) {
+exit;
+}
