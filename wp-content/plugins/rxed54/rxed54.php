@@ -33,6 +33,7 @@ function rxed54_display_settings_page()
             settings_fields('rxed54_options');
             //output setting sections
             do_settings_sections('rxed54');
+            // submitting form
             submit_button();
             ?>
         </form>
