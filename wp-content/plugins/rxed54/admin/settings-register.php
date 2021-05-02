@@ -22,6 +22,33 @@ function rxed54_register_settings()
         'rxed54'
     );
     // Registering fields
-
+    add_settings_field(
+        'custom_title',
+        'Custom title',
+        'rxed54_cb_field_text',
+        'rxed54',
+        'rxed54_section_login'
+    );
+    add_settings_field(
+        'custom_url',
+        'Custom url',
+        'rxed54_cb_field_text',
+        'rxed54',
+        'rxed54_section_admin'
+    );
+    add_settings_field(
+        'custom_style',
+        'Custom style',
+        'rxed54_cb_field_text',
+        'rxed54',
+        'rxed54_section_admin'
+    );
+    add_settings_field(
+        'custom_message',
+        'Custom message',
+        'rxed54_cb_field_text',
+        'rxed54',
+        'rxed54_section_admin'
+    );
 }
 add_action('admin_init', 'rxed54_register_settings');
