@@ -26,4 +26,6 @@ if (is_admin()) {
     require_once plugin_dir_path(__FILE__) . 'admin/admin-submenu.php';
     require_once plugin_dir_path(__FILE__) . 'admin/settings-page.php';
     require_once plugin_dir_path(__FILE__) . 'admin/sub-settings-page.php';
+    require_once plugin_dir_path(__FILE__) . 'admin/settings-register.php';
+    require_once plugin_dir_path(__FILE__) . 'admin/settings-cb.php';
 }

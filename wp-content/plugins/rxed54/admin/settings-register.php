@@ -2,11 +2,13 @@
 
 function rxed54_register_settings()
 {
+    // Registering settings 
     register_setting(
         'rxed54_options',
         'rxed54_options',
         'rxed54_cb_validate_options'
     );
+    // Registering sections
     add_settings_section(
         'rxed54_section_login',
         'Customize Login Page',
@@ -16,7 +18,10 @@ function rxed54_register_settings()
     add_settings_section(
         'rxed54_section_admin',
         'Customize admin area',
-        'rxed54_cb_section_admin'
-    )
+        'rxed54_cb_section_admin',
+        'rxed54'
+    );
+    // Registering fields
+
 }
 add_action('admin_init', 'rxed54_register_settings');
