@@ -23,20 +23,7 @@ if (!defined('ABSPATH')) {
 if (is_admin()) {
     //including dependencies
     require_once plugin_dir_path(__FILE__) . 'admin/admin-menu.php';
+    require_once plugin_dir_path(__FILE__) . 'admin/admin-submenu.php';
     require_once plugin_dir_path(__FILE__) . 'admin/settings-page.php';
+    require_once plugin_dir_path(__FILE__) . 'admin/sub-settings-page.php';
 }
-
-
-// function rxed54_add_sublevel_menu()
-// {
-//     add_submenu_page(
-//         'rxed54.php',
-//         'rxed54 Sub menu',
-//         'rxed54 submenu',
-//         'manage_options',
-//         'rxed54',
-//         'rxed54_display_settings_page',
-//         null
-//     );
-// }
-// add_action('admin_menu', 'rxed54_add_sublevel_menu');
