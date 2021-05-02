@@ -1,5 +1,7 @@
 <?php // rxed54 Settings register
-
+if (!defined('ABSPATH')) {
+    exit;
+}
 function rxed54_register_settings()
 {
     // Registering settings 

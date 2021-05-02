@@ -1,5 +1,7 @@
 <?php // Settings callbacks functions
-
+if (!defined('ABSPATH')) {
+    exit;
+}
 //Sections callbacks
 function rxed54_cb_section_login()
 {
