@@ -1,4 +1,6 @@
 <?php // Settings callbacks functions
+
+// Exit if accessed directely
 if (!defined('ABSPATH')) {
     exit;
 }

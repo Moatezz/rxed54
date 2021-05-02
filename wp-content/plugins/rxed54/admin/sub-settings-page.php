@@ -1,4 +1,6 @@
 <?php //rxed54 Settings display page
+
+// Exit if accessed directely
 if (!defined('ABSPATH')) {
 
     exit;

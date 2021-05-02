@@ -1,5 +1,10 @@
 <?php
 
+// Exit if accessed directely
+if (!defined('ABSPATH')) {
+
+    exit;
+}
 function rxed54_add_sublevel_menu()
 {
     add_submenu_page(
