@@ -14,7 +14,6 @@ function rxed54_display_settings_page()
     <div class="wrap">
         <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
         <form action="options.php" method="post">
-            <input type="text" />
             <?php
             //output security fields
             settings_fields('rxed54_options');
