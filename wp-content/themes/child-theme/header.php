@@ -125,6 +125,7 @@
 				?>
 
 					<div class="header-toggles hide-no-js">
+						<div> this sucks</div>
 						<?php
 						if (has_nav_menu('expanded')) {
 						?>

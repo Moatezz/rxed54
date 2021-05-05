@@ -11,3 +11,7 @@
  Tags:         plugin, test
  Text Domain:  twentytwentychild
 */
+
+.site-title {
+  background-color: red;
+}
